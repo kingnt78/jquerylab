@@ -2,13 +2,28 @@
 body{
 background-color:#EFE4E4;
 }
-flex-container{
+.flex-container{
 	align-items: center;
-	background-color:#FFFCFC;
+    background-color: #FFFCFC;
+    display: flex;
+    flex-wrap: wrap;
+    width:400px;
 }
- #first{
-	background-color:#FFFCFC;
+.topper{
+	width: 400px;
+	text-align: center;
 }
+.table{
+	height: 133px;
+    width: 133px;
+    border-radius: 100%;
+    background-color: #f2f2f2;
+    text-align: center;
+
+}
+/* #first{
+	background-color:#FFFCFC;
+}*/
 h1{
 	color: red;
 	text-align: center;
@@ -16,40 +31,24 @@ h1{
 h6{
 	text-align: center;
 }
-.row1{
-	display: flex;
-    padding: 15px;
-    text-align: center;
-    justify-content: center
-}
-.row2{
-	 display: flex;
-    padding: 15px;
-    text-align: center;
-    justify-content: center
-}
-.row3{
-	display: flex;
-    padding: 15px;
-    text-align: center;
-    justify-content: center
-}
-li{
-	list-style: none;
-	width: 100px;
-	height: 10px;
-	top: 10px;
-	bottom: 10px;
-	left: 10px;
-	right: 10px;
-	border-radius:100%;
-}
-#second_page{
-		visibility: hidden;
-	    background-color: #FFFCFC;
 
+.second_page{
+		/*visibility: hidden;*/
+	    background-color: #FFFCFC;
+	    z-index: 1000;
+	    position: absolute;
+	    /*display: none;*/
+	    width: 400px;
 }
-#reservation-form{
+button.cancelout{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    width: 25px;
+    border:;
+}
+
+.reservation-form{
 	text-align: center;
 }
 

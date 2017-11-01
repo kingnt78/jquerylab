@@ -1,24 +1,11 @@
 $(document).ready(function(){
-//    $("li").on("click", function()
-//         ("second-page").show());
-// });
-$("li").click(function(){
-	$("#second-page").show().slideDown();
-	});
+'$(.'flex-container').on('click', function reserveTable(){
+	let table = (this);
+	let tableNum = $(this).text();
+	// setting the clicked table to variable
+	
 
-
-}
-const available="allowed(this)"
-const reserved="reserved(this)"
-function allowed(obj){
-		obj.innerHTML= "available"
-}
-
-function reserved(obj){
-	obj.innerHTML = "reserved"
-}
-
-
+})
 
 
 
